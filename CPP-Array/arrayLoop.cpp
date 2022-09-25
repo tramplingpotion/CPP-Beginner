@@ -1,10 +1,16 @@
+//combination of array and for loop to display all value of array
+
 #include <iostream>
 #include <string>
 
 int main(int argc, char const *argv[])
 {
-    std::string cars[4] = {"volvo", "bmw", "ford", "mazda"};
-    for (int i = 0; i <= 4; i++)
+    //array must use constant value
+    //size of array can be bigger than number of index of an array
+    const int numOfCar = 4; 
+    std::string cars[numOfCar] = {"volvo", "bmw", "ford", "mazda"};
+    
+    for (int i = 0; i <= numOfCar; i++)
     {
         std::cout << cars[i] << std::endl;
     }
