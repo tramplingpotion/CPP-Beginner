@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
     // e.g.:
     std::string cars1[] = {"volvo", "proton", "lotus", "ferrari", "ford"};
 
+    std::cin.get();
     return 0;
 }

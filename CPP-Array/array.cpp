@@ -14,6 +14,7 @@ int main(int argc, char const *argv[])
 
     std::cout << cars[2] << std::endl;
     std::cout << num[2];
+    
     std::cin.get();
     return 0;
 }
