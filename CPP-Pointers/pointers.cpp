@@ -10,8 +10,8 @@ int main(int argc, char const *argv[])
     std::string* ptr = &food;
 
     std::cout << food << std::endl;
-    std::cout << ptr << std::endl;   // display memory address
-    std::cout << &food << std::endl; // display memory address
+    std::cout << ptr << std::endl;   // display memory address using pointer
+    std::cout << &food << std::endl;   // display memory address using reference
 
     return 0;
 }
